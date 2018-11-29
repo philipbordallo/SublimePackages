@@ -1,0 +1,7 @@
+{
+	"extensions": [
+		".babelrc",
+		".tern-config",
+		".tern-project"
+	]
+}

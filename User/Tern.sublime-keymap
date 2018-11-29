@@ -1,0 +1,9 @@
+[
+  {
+    "keys": ["ctrl+alt+space"],
+    "command": "tern_describe",
+    "context": [
+      {"key": "selector", "operand": "source.js"}
+    ]
+  }
+]

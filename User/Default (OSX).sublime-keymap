@@ -1,0 +1,16 @@
+[
+	// Make things more similar to Chrome
+	{ "keys": ["command+l"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["command+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["command+\\"], "command": "toggle_side_bar" },
+	{ "keys": ["command+n"], "command": "new_window" },
+	{ "keys": ["command+t"], "command": "new_file" },
+
+	// Sublime always wants to reset to `font_size` to 12, let's fix that
+	{ "keys": ["command+0"], "command": "reset_font_size_to_user_defaults" },
+
+	// Quicker selections
+	{ "keys": ["command+."], "command": "expand_selection", "args": {"to": "tag"} },
+	{ "keys": ["command+;"], "command": "expand_selection", "args": {"to": "brackets"} },
+	{ "keys": ["command+'"], "command": "expand_selection_to_quotes"}
+]

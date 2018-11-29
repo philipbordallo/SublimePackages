@@ -1,0 +1,119 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.psd",
+		"*.zip",
+		"*.ttf",
+		"*.woff",
+		"*.woff2",
+		"*bundle.js",
+		"*min.css",
+		"package-lock.json"
+	],
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - Eighties Slasher/Eighties Slasher.sublime-color-scheme",
+	"default_font_size": 15,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.map"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"node_modules",
+		"tmp",
+		"workfiles"
+	],
+	"font_face": "Andale Mono",
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"ASP",
+		"C#",
+		"C++",
+		"Clojure",
+		"D",
+		"Erlang",
+		"Graphviz",
+		"Groovy",
+		"Java",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Matlab",
+		"OCaml",
+		"Pascal",
+		"Perl",
+		"R",
+		"RestructuredText",
+		"Scala",
+		"TCL",
+		"Textile",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"solid",
+		"draw_active",
+		"draw_normal"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"open_files_in_new_window": false,
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

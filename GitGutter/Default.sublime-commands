@@ -1,0 +1,30 @@
+[
+/*    {
+        "caption": "Git: Show Diff Popup",
+        "command": "git_gutter_diff_popup"
+    },
+    {
+        "caption": "Git: Show Comparing Against",
+        "command": "git_gutter_show_compare"
+    },
+    {
+        "caption": "Git: Compare Against HEAD",
+        "command": "git_gutter_compare_head"
+    },
+    {
+        "caption": "Git: Compare Against Origin",
+        "command": "git_gutter_compare_origin"
+    },
+    {
+        "caption": "Git: Compare Against Commit",
+        "command": "git_gutter_compare_commit"
+    },
+    {
+        "caption": "Git: Compare Against Branch",
+        "command": "git_gutter_compare_branch"
+    },
+    {
+        "caption": "Git: Compare Against Tag",
+        "command": "git_gutter_compare_tag"
+    }*/
+]

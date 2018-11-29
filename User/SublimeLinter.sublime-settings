@@ -1,0 +1,28 @@
+// SublimeLinter Settings - User
+{
+  "lint_mode": "load_save",
+  "linters": {
+    "eslint": {
+      "args": ["-c", "./configs/eslint.config.js"]
+    }
+  },
+  "show_marks_in_minimap": false,
+  "statusbar.messages_template": "",
+  "statusbar.show_active_linters": false,
+  "styles": [
+    {
+      "mark_style": "none",
+      "priority": 1,
+      "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+      "icon": "dot",
+      "types": ["warning"]
+    },
+    {
+      "mark_style": "none",
+      "priority": 1,
+      "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+      "icon": "dot",
+      "types": ["error"]
+    }
+  ]
+}

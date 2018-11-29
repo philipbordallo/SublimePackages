@@ -1,0 +1,26 @@
+.DS_Store
+
+# Default Sublime packages
+jsonschema
+markupsafe
+mdpopups
+pygments
+pymdownx
+python-jinja2
+python-markdown
+PyV8
+pyyaml
+User/Package Control.cache
+User/oscrypto-ca-bundle.crt
+User/Package Control.last-run
+User/Package Control.merged-ca-bundle
+User/Package Control.sublime-settings
+User/Package Control.user-ca-bundle
+
+# Custom packages
+Babel
+Color Scheme - Eighties Slasher
+CSS
+SCSS
+Pretty JSON
+tern_for_sublime

@@ -1,0 +1,8 @@
+{
+	"tern_command": [
+		"node", "/usr/local/lib/node_modules/tern/bin/tern",
+	],
+	"tern_argument_completion": true,
+	"tern_arguments": ["--no-port-file"],
+	"tern_default_project_dir": "/Users/philipbordallo/.tern",
+}

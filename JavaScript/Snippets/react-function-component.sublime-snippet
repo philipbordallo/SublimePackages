@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[import React from 'react';
+import PT from 'prop-types';
+
+function ${1:ComponentName}(props) {
+	return (
+    ${2}
+  );
+}
+${1:ComponentName}.propTypes = {};
+
+export default ${1:ComponentName};
+]]></content>
+  <tabTrigger>ReactFunctionComponent</tabTrigger>
+  <scope>source.js</scope>
+  <description>component</description>
+</snippet>
+

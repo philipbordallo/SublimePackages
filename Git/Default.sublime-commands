@@ -1,0 +1,194 @@
+[
+    {
+        "caption": "Git: Blame",
+        "command": "git_blame"
+    }
+    ,{
+        "caption": "Git: Document Selection",
+        "command": "git_document"
+    }
+    ,{
+        "caption": "Git: New Tag",
+        "command": "git_new_tag"
+    }
+    ,{
+        "caption": "Git: Delete Tag",
+        "command": "git_delete_tag"
+    }
+    ,{
+        "caption": "Git: Show Tags",
+        "command": "git_show_tags"
+    }
+    ,{
+        "caption": "Git: Push Tags",
+        "command": "git_raw", "args": { "command": "git push --tags", "may_change_files": false }
+    }
+    ,{
+        "caption": "Git: Checkout Tag",
+        "command": "git_checkout_tag"
+    }
+    ,{
+        "caption": "Git: Log Current File",
+        "command": "git_log"
+    }
+    ,{
+        "caption": "Git: Log All",
+        "command": "git_log_all"
+    }
+    ,{
+        "caption": "Git: Graph Current File",
+        "command": "git_graph"
+    }
+    ,{
+        "caption": "Git: Graph All",
+        "command": "git_graph_all"
+    }
+    ,{
+        "caption": "Git: View selected commits",
+        "command": "git_goto_commit"
+    }
+    ,{
+        "caption": "Git: Diff Current File",
+        "command": "git_diff"
+    }
+    ,{
+        "caption": "Git: Diff All Files",
+        "command": "git_diff_all"
+    }
+    ,{
+        "caption": "Git: Diff Staged Files",
+        "command": "git_diff_commit"
+    }
+    ,{
+        "caption": "Git: Diff Tool Current File",
+        "command": "git_raw", "args": { "command": "git difftool", "append_current_file": true, "may_change_files": false }
+    }
+    ,{
+        "caption": "Git: Diff Tool All",
+        "command": "git_raw", "args": { "command": "git difftool", "may_change_files": false }
+    }
+    ,{
+        "caption": "Git: Diff Tool Current File Staged",
+        "command": "git_diff_tool_commit"
+    }
+    ,{
+        "caption": "Git: Diff Tool Staged",
+        "command": "git_diff_tool_commit_all"
+    }
+    ,{
+        "caption": "Git: Commit",
+        "command": "git_commit"
+    }
+    ,{
+        "caption": "Git: Amend Commit",
+        "command": "git_commit_amend"
+    }
+    ,{
+        "caption": "Git: Status",
+        "command": "git_status"
+    }
+    ,{
+        "caption": "Git: Open Modified Files",
+        "command": "git_open_modified_files"
+    }
+    ,{
+        "caption": "Git: New Branch",
+        "command": "git_new_branch"
+    }
+    ,{
+        "caption": "Git: Change Branch",
+        "command": "git_branch"
+    }
+    ,{
+        "caption": "Git: Track Remote Branch",
+        "command": "git_track_remote_branch"
+    }
+    ,{
+        "caption": "Git: Merge Branch",
+        "command": "git_merge"
+    }
+    ,{
+        "caption": "Git: Delete Branch",
+        "command": "git_delete_branch"
+    }
+    ,{
+        "caption": "Git: Stash Changes",
+        "command": "git_raw", "args": { "command": "git stash" }
+    }
+    ,{
+        "caption": "Git: Stash Pop",
+        "command": "git_raw", "args": { "command": "git stash pop" }
+    }
+    ,{
+        "caption": "Git: Stash Apply",
+        "command": "git_stash_apply"
+    }
+    ,{
+        "caption": "Git: Stash Drop",
+        "command": "git_stash_drop"
+    }
+    ,{
+        "caption": "Git: Stash List",
+        "command": "git_stash_list"
+    }
+    ,{
+        "caption": "Git: Add Current File",
+        "command": "git_raw", "args": { "command": "git add", "append_current_file": true }
+    }
+    ,{
+        "caption": "Git: Add...",
+        "command": "git_add_choice"
+    }
+    ,{
+        "caption": "Git: Add All",
+        "command": "git_raw", "args": { "command": "git add -A" }
+    }
+    ,{
+        "caption": "Git: Checkout Current File",
+        "command": "git_raw", "args": { "command": "git checkout", "append_current_file": true }
+    }
+    ,{
+        "caption": "Git: Show Previous Version of Current File",
+        "command": "git_show"
+    }
+    ,{
+        "caption": "Git: Show Commit By Hash",
+        "command": "git_show_commit"
+    }
+    ,{
+        "caption": "Git: Custom Command",
+        "command": "git_custom"
+    }
+    ,{
+        "caption": "Git: Open...",
+        "command": "git_open_file"
+    }
+    ,{
+        "caption": "Git: Reset (unstage) Current File",
+        "command": "git_raw", "args": { "command": "git reset HEAD", "append_current_file": true, "show_in": "suppress" }
+    }
+    ,{
+        "caption": "Git: Reset (unstage) All",
+        "command": "git_raw", "args": { "command": "git reset HEAD", "show_in": "suppress" }
+    }
+    ,{
+        "caption": "Git: Reset (hard) HEAD",
+        "command": "git_reset_hard_head"
+    }
+    ,{
+        "caption": "Git: Add Selected Hunk",
+        "command": "git_add_selected_hunk"
+    }
+    ,{
+        "caption": "Git: Commit Selected Hunk",
+        "command": "git_commit_selected_hunk"
+    }
+    ,{
+        "caption": "Git: Commit history",
+        "command": "git_commit_history"
+    }
+    ,{
+        "caption": "Git: Update Project Ignored Files",
+        "command": "git_update_ignore"
+    }
+]
