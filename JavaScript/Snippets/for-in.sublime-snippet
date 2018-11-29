@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[for (let ${1:enumerable} in ${2:object}) {
+  ${3:${1:enumerable}}
+}]]></content>
+  <tabTrigger>for...in</tabTrigger>
+  <scope>source.js</scope>
+  <description>object-loop</description>
+</snippet>

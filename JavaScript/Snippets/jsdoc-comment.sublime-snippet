@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[/**
+ * ${1:Description}
+ * @param {${2:string}} ${3:param} - Param description
+ * @returns {type}
+ */]]></content>
+  <tabTrigger>JSDoc</tabTrigger>
+  <scope>source.js</scope>
+  <description>comment</description>
+</snippet>
