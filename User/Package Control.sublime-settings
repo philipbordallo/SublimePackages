@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Base16 Eighties Dark Color Scheme",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"Git",
+		"GitGutter",
+		"HyperClick",
+		"nginx",
+		"Package Control",
+		"Pretty JSON",
+		"SCSS",
+		"SideBarTools",
+		"Statusbar Path",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"tern_for_sublime",
+		"TOML"
+	],
+	"repositories":
+	[
+	]
+}
