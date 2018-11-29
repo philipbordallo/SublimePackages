@@ -1,0 +1,13 @@
+// HyperClick Preferences – User
+// ====================================================
+
+{
+  "valid_extensions": {
+    "js": ["js", "jsx", "css"],
+    "css": ["css", "pcss", "postcss"]
+  },
+  "lookup_paths": {
+    "js": ["./src"],
+    "css": ["./src"]
+  }
+}
